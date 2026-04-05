@@ -10,4 +10,4 @@ The main problem faced in this part of the project is the need to create a new f
 The results were very satisfactory and pretty much replicated the expected behavior from Leskovec. The concrete numerical results will be posted here once the work is completed, although they can be checked in the uploaded notebook.
 
 
-**NOTE**: The notebooks that have been uploaded are a generalized version of Leskovec results which will be explain in coming updates. This is because the original Leskovec replication results need revisiting due to a newly found error which has been solved for future version, but that still persist at the first stages of the code.
+**NOTE**: The notebooks that have been uploaded are a generalized version of Leskovec results which will be explained in coming updates. Thie first original Leskovec replication results need revisiting due to a newly found error which has been solved for future version, but that still persist at the first stages of the code. Thus, I have decided to substitute them with our improved version.
