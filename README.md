@@ -8,3 +8,6 @@ The main objective that we will be taking for the first part of this thesis is t
 The main problem faced in this part of the project is the need to create a new function which starts a 10-fold cross validation, creates both training and validation dataframes at each fold of the CV and then train for each fold the logistic regression model and after that, give an AUC-ROC metric at the validation fold. It is crucial to remark that the standard function `cross_val_score` from **Scikit-learn** could not be used since it does not allow the creation of a new dataset at each fold. This is necessary because, otherwise, there would be a data leakage problem, since we would be using some of the validation links to create the variables used for predicting in the logistic regression.
 
 The results were very satisfactory and pretty much replicated the expected behavior from Leskovec. The concrete numerical results will be posted here once the work is completed, although they can be checked in the uploaded notebook.
+
+
+**NOTE**: The notebooks that have been uploaded are a generalized version of Leskovec results which will be explain in coming updates. This is because the original Leskovec replication results need revisiting due to a newly found error which has been solved for future version, but that still persist at the first stages of the code.
